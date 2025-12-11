@@ -121,7 +121,6 @@ namespace OOP.FinalTerm.Exam.Views
             panel3.Padding = new Padding(15);
             panel3.Size = new Size(500, 360);
             panel3.TabIndex = 2;
-            panel3.Paint += panel3_Paint;
             // 
             // txtFirstName
             // 
@@ -130,7 +129,6 @@ namespace OOP.FinalTerm.Exam.Views
             txtFirstName.Size = new Size(169, 23);
             txtFirstName.TabIndex = 2;
             txtFirstName.Text = "First Name";
-            txtFirstName.TextChanged += textBox1_TextChanged;
             // 
             // txtLastName
             // 
